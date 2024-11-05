@@ -25,6 +25,10 @@ body {
     max-width: 300px;
 }
 
+.split{
+    width: 50%;
+}
+
 footer {
     background-color: var(--accentColor);
     font-family: var(--secondaryFontFamily);
