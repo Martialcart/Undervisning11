@@ -1,0 +1,36 @@
+/* best practice å sette i rot. * (stjerne) påvirker alt */
+:root {
+    --primaryColor: #abba88;
+    --secondaryColor: #88a096; /**/
+    --accentColor: #8a4f7d; /* hoover , special effect*/
+
+    --sizingSmall: 5px;
+    --sizingMedium: 15px;
+    --sizingLarge: 20px;
+
+    --primaryFontFamily: "Times";
+    --secondaryFontFamily: "Helvetica";
+}
+
+body {
+    background-color: var(--primaryColor);
+    font-family: var(--primaryFontFamily);
+}
+
+.fullScreen {
+    min-width: 100vh;
+}
+
+.cardWidth {
+    max-width: 300px;
+}
+
+footer {
+    background-color: var(--accentColor);
+    font-family: var(--secondaryFontFamily);
+}
+
+section {
+    background-color: var(--secondaryColor);
+}
+
